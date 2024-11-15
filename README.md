@@ -11,3 +11,4 @@ A a website that displays a countdown timer in hours and days, till 13/12/2024 2
 - Add dependencies :
     - cargo add wasm-bindgen
     - cargo add chrono --features "serde"
+- Compile to web : wasm-pack build --target web
