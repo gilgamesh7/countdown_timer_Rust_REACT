@@ -1,0 +1,15 @@
+{
+  "name": "countdown",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "countdown_bg.wasm",
+    "countdown.js",
+    "countdown.d.ts"
+  ],
+  "main": "countdown.js",
+  "types": "countdown.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
