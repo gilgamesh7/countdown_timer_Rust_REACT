@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div style={{ textAlign: "center", marginTop: "20%" }}>
-      <h1>Countdown to 13/12/2024 23:30 NZST</h1>
+      <h1>Countdown to 13 December 2024 23:30 NZST</h1>
       <h2>{countdown}</h2>
     </div>
   );
