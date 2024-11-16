@@ -4,6 +4,8 @@ function App() {
   const [countdown, setCountdown] = useState('');
 
   useEffect(() => {
+    document.title = "Count down to Pondaati Return";
+    
     async function loadWasm() {
 
       // Fetch the WASM file from the public folder
@@ -60,6 +62,7 @@ function App() {
   }
 
   return (
+    
     <div style={{ textAlign: "center", marginTop: "20%" }}>
       <h1>Countdown to 13 December 2024 23:30 NZST</h1>
       <h2>{countdown}</h2>
